@@ -8,11 +8,21 @@ body {
   font-family: Besley, serif;
 }
 
-.header {
-  background: white;
+.notifications {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.header{
+   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
-}
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ }
 
 .profile-image {
   background: rebeccapurple;
@@ -43,6 +53,20 @@ a {
   color: rebeccapurple;
 }
 
-ul {
+ul{
   list-style-type: none;
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  align-items: center;
+  gap: 16px;
+  
 }
+.left, .right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+
+
